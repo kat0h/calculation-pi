@@ -9,8 +9,8 @@ float pi_Montecarlo(long long int r, long long int repeat, float seed);
 
 
 int main(int argc, char const* argv[]){
-    float pi=pi_Montecarlo(100,1000,(unsigned)time(NULL));
-    printf("%g",pi);
+    float pi=pi_Montecarlo(atoi(argv[2]),atoi(argv[1]),atoi(argv[3]));
+    printf("%g\n",pi);
 }
 
 /*
