@@ -25,7 +25,7 @@ int genrand(int min,int max){
 
 /*
  * 名前   : float pi_Montecarlo(long long int r, long long int repeat, float seed)
- * 引数   : r      計算に使う円の円周率
+ * 引数   : r      計算に使う円の半径
  *          repeat 計算回数
  *          seed   乱数の種
  * 帰り値 : 円周率の近似値
