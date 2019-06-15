@@ -1,5 +1,5 @@
 # monteCarlo
-You can calc pi by montecarlo.
+You can calculate pi by Monte Carlo method.
 
 # build
 You need MT.h.
